@@ -8,7 +8,6 @@
 
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-		<link rel="stylesheet" href="../easyride/css/bootstrap.min.css">
 		<link rel="stylesheet" href="style.css">
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,15 +19,35 @@
 	</head>
 	<body>
 
+			
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">HumanATM</a>
+				</div>
+		
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-ex1-collapse">
+					
+					<ul class="nav navbar-nav navbar-right" id="navbar">
+						<li><a href="#">WALLET</a></li>
+						<li><a href="#">TRANSACTIONS</a></li>
+						<li><a href="#">PAY BILLS</a></li>
+						<li><a href="#">INVITE FRIENDS</a></li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div>
+		</nav>
+				
 		<div class="container">
-			<header>
-				<ul class="list-inline">
-					<li><a href="#">WALLET</a></li>
-					<li><a href="#">TRANSACTIONS</a></li>
-					<li><a href="#">PAY BILLS</a></li>
-					<li><a href="#">INVITE FRIENDS</a></li>
-				</ul>
-			</header>
+				
 			<div class="col-sm-12 wrapper">
 				<div class="row top-bar-wrapper">
 					<div class="col-sm-12 top-bar">
@@ -67,6 +86,7 @@
 						LOCATION
 						<p>Zenith Bank International</p>
 					</div>
+					<p class="blue">Transaction Fee &nbsp&nbsp&nbspN50</p>
 					<div class="buttons">
 						<a href="#" class="tabs active">SEND</a>
 						<a href="#" class="tabs">FUND WALLET</a>
@@ -75,5 +95,8 @@
 			</div>
 		</div>
 
+
+	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</body>
 </html>
